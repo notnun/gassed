@@ -19,5 +19,5 @@ func run() error {
 }
 
 func handleIndex(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "You've got gas!")
+	fmt.Fprintf(w, "You've been gassed!")
 }
